@@ -1,0 +1,55 @@
+body{
+    padding: 100px;
+}
+
+.submit-area{
+    margin-top: 40px;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+#transition-area{
+    display: none;
+}
+
+.status{
+    margin: 0 30px;
+    padding: 30px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.deposit{
+    background-color: slateblue;
+}
+
+.withdraw{
+    background-color: lightsalmon;
+}
+
+.balance{
+    background-color: orange;
+}
+
+
+
+
+/* repeat work for currentDeposit & currentBalance ----
+    // const currentDeposit = document.getElementById('currentDeposit').innerText;
+    // const currentDepositNum = parseFloat(currentDeposit);
+    // const totalDeposit = depositnum + currentDepositNum;
+    // document.getElementById('currentDeposit').innerText = totalDeposit;
+
+    // const currentBalance = document.getElementById('currentBalance').innerText;
+    // const currentBalanceNum = parseFloat(currentBalance);
+    // const totalBalance = depositnum + currentBalanceNum;
+    // document.getElementById('currentBalance').innerText = totalBalance; */
+
+
+/*  repeat work for withdrawAmount and depositAmount -----
+    const depositBtn = document.getElementById('addDeposit');
+    depositBtn.addEventListener("click", function(){
+    const depositAmnt = document.getElementById("depositAmount").value;
+    const depositNum = parseFloat(depositAmnt);
+    }) */
